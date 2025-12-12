@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFO Positivity - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #5C4A3A;
+            background: linear-gradient(135deg, #F5F1E8 0%, #F8E4D8 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(92, 74, 58, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #B8864F;
+            font-size: 36px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #D4A574;
+            font-size: 18px;
+        }
+        
+        h2 {
+            color: #B8864F;
+            font-size: 24px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .contact {
+            background: #F5F1E8;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+        
+        .contact-link {
+            display: inline-block;
+            background: #D4A574;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+        
+        .contact-link:hover {
+            background: #B8864F;
+        }
+        
+        .faq {
+            border-left: 4px solid #D4A574;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+        
+        .faq h3 {
+            color: #5C4A3A;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .faq p {
+            color: #5C4A3A;
+            opacity: 0.8;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .feature-list li:before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">✨</div>
+            <h1>FIFO Positivity</h1>
+            <p class="subtitle">Support & Information</p>
+        </div>
+
+        <div class="section">
+            <h2>About FIFO Positivity</h2>
+            <p>FIFO Positivity is a mindfulness and gratitude app that helps you maintain focus on your most recent positive experiences. Using a simple First-In-First-Out (FIFO) queue system, the app keeps your 10 most recent positive moments active while automatically archiving older ones.</p>
+        </div>
+
+        <div class="section">
+            <h2>Key Features</h2>
+            <ul class="feature-list">
+                <li>Keep 10 active positive moments in your daily practice</li>
+                <li>Automatic FIFO rotation when you add new experiences</li>
+                <li>5 customizable daily reminder notifications</li>
+                <li>Searchable archive of all your moments</li>
+                <li>100% private - all data stored locally on your device</li>
+                <li>Beautiful, calming design with dark mode support</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq">
+                <h3>How does the FIFO queue work?</h3>
+                <p>Your app maintains 10 active experiences. When you add an 11th experience, the oldest one automatically moves to your archive. This keeps your focus on recent positive moments while preserving everything you've added.</p>
+            </div>
+
+            <div class="faq">
+                <h3>Can I customize notification times?</h3>
+                <p>Yes! Go to the Settings tab and tap on any of the 5 daily reminder times to customize them to fit your schedule.</p>
+            </div>
+
+            <div class="faq">
+                <h3>Is my data private?</h3>
+                <p>Absolutely! All your experiences are stored locally on your device. We don't collect, store, or transmit any of your personal data. No accounts required, no cloud sync, no tracking.</p>
+            </div>
+
+            <div class="faq">
+                <h3>What happens to archived experiences?</h3>
+                <p>When an experience is archived, it's preserved forever in your Archive tab. You can search through all your archived moments and view them organized by month.</p>
+            </div>
+
+            <div class="faq">
+                <h3>Can I manually delete experiences?</h3>
+                <p>Yes, you can delete any active experience or archived experience at any time. You can also clear your entire archive if needed.</p>
+            </div>
+
+            <div class="faq">
+                <h3>How do I disable notifications?</h3>
+                <p>You can disable notifications in your iPhone Settings → Notifications → FIFO Positivity. Or simply turn off specific reminder times in the app's Settings tab.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Privacy Policy</h2>
+            <p><strong>Data Collection:</strong> We do not collect any personal data. All information you enter in FIFO Positivity stays on your device.</p>
+            <p><strong>Third-Party Services:</strong> We do not use any third-party analytics, tracking, or advertising services.</p>
+            <p><strong>Notifications:</strong> Local notifications are generated on your device and do not transmit any data.</p>
+            <p><strong>Your Rights:</strong> Since all data is stored locally, you have complete control. Delete the app to remove all data.</p>
+        </div>
+
+        <div class="section">
+            <h2>System Requirements</h2>
+            <p><strong>Requires:</strong> iOS 17.0 or later</p>
+            <p><strong>Compatible with:</strong> iPhone, iPad</p>
+        </div>
+
+        <div class="contact">
+            <h2>Need Help?</h2>
+            <p>If you have questions, feedback, or need assistance, please don't hesitate to reach out:</p>
+            <a href="brandon.paikoff@gmail.com" class="contact-link">Contact Support</a>
+            <p style="margin-top: 15px; font-size: 14px; opacity: 0.7;">
+                Typically respond within 24-48 hours
+            </p>
+        </div>
+
+        <div class="section" style="text-align: center; margin-top: 40px; opacity: 0.6; font-size: 14px;">
+            <p>© 2024 FIFO Positivity. All rights reserved.</p>
+            <p style="margin-top: 10px;">Made with ✨ for your daily mindfulness practice</p>
+        </div>
+    </div>
+</body>
+</html>
